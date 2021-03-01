@@ -1,0 +1,80 @@
+.shop-now {
+	padding: 83px 0 67px 0;
+	&__content {
+		margin: 0 auto;
+		width: 320px;
+	}
+	&__first-part {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	&__title {
+		margin: 0 0 21px 0;
+	}
+	&__rating {
+		margin: 0 0 11px 0;
+	}
+	&__text {
+		margin: 0 0 50px 0;
+		font-weight: 300;
+		font-size: 14px;
+		line-height: 170%;
+		text-align: center;
+		color: #000;
+	}
+	&__price {
+		margin: 0 0 30px 0;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		.old-price {
+			margin: 0 30px 0 0;
+		}
+	}
+	&__button {}
+	&__second-part {
+		background: url('../img/bg/Group 313.png') no-repeat center;
+	}
+	&__image {
+		img {
+			width: 100%;
+		}
+	}
+}
+@media(min-width: 335px) {
+	.shop-now {
+		&__content {
+			width: 335px;
+		}
+	}
+}
+@media (min-width: 1100px) {
+	.shop-now {
+		&__content {
+			display: flex;
+			flex-direction: row-reverse;
+			justify-content: space-between;
+			align-items: center;
+			margin: 0 auto;
+			width: 1100px;
+		}
+		&__text {
+			font-size: 18px;
+		}
+		&__first-part {
+			width: 428px;
+		}
+		&__second-part {
+			background: url('../img/bg/Group.png') no-repeat center;
+			background-position: -25px -20px;
+		}
+	}
+}
+@media (min-width: 1440px) {
+	.shop-now {
+		&__content {
+			width: 1220px;
+		}
+	}
+}
